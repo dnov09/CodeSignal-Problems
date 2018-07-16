@@ -5,5 +5,3 @@ def adjacentElementsProduct(inputArray):
         rv.append(inputArray[count] * inputArray[count + 1])
         count += 1
     return max(rv)
-
-adjacentElementsProduct(inputArray)
